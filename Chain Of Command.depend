@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1599318455 source:e:\projects\chainofcommand\main_code.cpp
+	<iostream>
+	<algorithm>
+	<string>
+	"Commision.h"
+	"Family.h"
+	"JuniorCommision.h"
+	"NonCommision.h"
+	"Officer.h"
+	"Official.h"
+	"person.h"
+	"Student.h"
+	"Stuff.h"
+	"Visitor.h"
+	"place.h"
+
+1599277777 e:\projects\chainofcommand\include\commision.h
+	<Officer.h>
+
+1599282367 e:\projects\chainofcommand\include\officer.h
+	<Official.h>
+
+1598750193 e:\projects\chainofcommand\include\official.h
+	<Person.h>
+
+1599279419 e:\projects\chainofcommand\include\person.h
+	<string>
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1599277431 e:\projects\chainofcommand\include\family.h
+	<Visitor.h>
+	"place.h"
+
+1599278734 e:\projects\chainofcommand\include\visitor.h
+	<Person.h>
+
+1599277778 e:\projects\chainofcommand\include\juniorcommision.h
+	<Officer.h>
+
+1599278200 e:\projects\chainofcommand\include\noncommision.h
+	<Officer.h>
+
+1599283028 e:\projects\chainofcommand\include\student.h
+	<Visitor.h>
+
+1599278013 e:\projects\chainofcommand\include\stuff.h
+	<Official.h>
+
+1599278213 source:e:\projects\chainofcommand\src\commision.cpp
+	"Commision.h"
+
+1599275884 source:e:\projects\chainofcommand\src\family.cpp
+	"Family.h"
+
+1599278237 source:e:\projects\chainofcommand\src\juniorcommision.cpp
+	"JuniorCommision.h"
+
+1599278253 source:e:\projects\chainofcommand\src\noncommision.cpp
+	"NonCommision.h"
+
+1599283652 source:e:\projects\chainofcommand\src\officer.cpp
+	"Officer.h"
+
+1598750959 source:e:\projects\chainofcommand\src\official.cpp
+	"Official.h"
+
+1599283568 source:e:\projects\chainofcommand\src\student.cpp
+	"Student.h"
+
+1599278105 source:e:\projects\chainofcommand\src\stuff.cpp
+	"Stuff.h"
+
+1599282050 source:e:\projects\chainofcommand\src\visitor.cpp
+	"Visitor.h"
+
+1599284001 source:e:\projects\chainofcommand\src\person.cpp
+	"Person.h"
+	"Family.h"
+	"Officer.h"
+	"Student.h"
+	"Stuff.h"
+	"Visitor.h"
+
+1599320073 e:\projects\chainofcommand\include\place.h
+	<string>
+	<iostream>
+	<cstdlib>
+
+1599261677 source:e:\projects\chainofcommand\src\place.cpp
+	"place.h"
+

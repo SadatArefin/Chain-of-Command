@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Chain Of Command" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Chain Of Command" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Chain Of Command" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Commision.h" />
+		<Unit filename="include/Family.h" />
+		<Unit filename="include/JuniorCommision.h" />
+		<Unit filename="include/NonCommision.h" />
+		<Unit filename="include/Officer.h" />
+		<Unit filename="include/Official.h" />
+		<Unit filename="include/Student.h" />
+		<Unit filename="include/Stuff.h" />
+		<Unit filename="include/Visitor.h" />
+		<Unit filename="include/person.h" />
+		<Unit filename="include/place.h" />
+		<Unit filename="main_code.cpp" />
+		<Unit filename="src/Commision.cpp" />
+		<Unit filename="src/Family.cpp" />
+		<Unit filename="src/JuniorCommision.cpp" />
+		<Unit filename="src/NonCommision.cpp" />
+		<Unit filename="src/Officer.cpp" />
+		<Unit filename="src/Official.cpp" />
+		<Unit filename="src/Student.cpp" />
+		<Unit filename="src/Stuff.cpp" />
+		<Unit filename="src/Visitor.cpp" />
+		<Unit filename="src/person.cpp" />
+		<Unit filename="src/place.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
